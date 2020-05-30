@@ -43,6 +43,7 @@
         android:ems="10"
         android:hint="Enter item to add"
         android:inputType="textPersonName"
+        android:textColor="@android:color/background_dark"
         app:layout_constraintBottom_toTopOf="@+id/Add_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
