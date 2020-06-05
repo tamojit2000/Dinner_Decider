@@ -4,14 +4,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:keepScreenOn="true">
 
     <Button
         android:id="@+id/Decide_btn"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="62dp"
-        android:background="@android:color/holo_red_dark"
+        android:layout_marginStart="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/round_gradient_button"
         android:text="Decide"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/background_light"
@@ -27,7 +31,7 @@
         android:layout_marginTop="120dp"
         android:background="@android:color/background_light"
         android:text="Press Decide to get Dishes"
-        android:textColor="@android:color/holo_red_dark"
+        android:textColor="@color/colorPrimaryDark"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -51,10 +55,10 @@
     <Button
         android:id="@+id/Add_btn"
         style="@style/Widget.AppCompat.Button.Borderless"
-        android:layout_width="wrap_content"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="100dp"
-        android:background="@android:color/holo_red_dark"
+        android:background="@drawable/round_gradient_button"
         android:text="ADD"
         android:textColor="@android:color/background_light"
         android:textSize="18sp"
